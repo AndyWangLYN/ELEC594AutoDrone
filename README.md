@@ -1,1 +1,1 @@
-# ELEC594AutoDrone
+# Heyu Wang ELEC 594 AutoDrone Capstone project
