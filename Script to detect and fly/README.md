@@ -4,4 +4,4 @@ The idea of this design is to allow the drone to first fly a default route to de
 
 The autodrone script just defines the default route and it is meant to be tested to see if the drone can fly in default routes and also fly towards assigned locations.
 
-The flower_search script added in the connection to the grpc to allow the camera to detect the box which represent the flower in the frame and move to the center of the flower as well as do the operation (in this case, lower the height to 0.5 meter) before moving on to finish the rest of the route.
+The search_flower script added in the connection to the grpc to allow the camera to detect the box which represent the flower in the frame and move to the center of the flower as well as do the operation (in this case, lower the height to 0.5 meter) before moving on to finish the rest of the route.
