@@ -10,15 +10,15 @@ The panic method can be called as a panic endpoint to immediately abort the miss
 
 To use the HoverMission class, create an instance of the class and specify the MAVProxy address of the flight controller and the name of the log file for location data. The start_server method is called automatically to start the web server that listens for callbacks to start the mission.
 
-mission = HoverMission(fc_addr='127.0.0.1:14550', log_file='location.log')
+(`mission = HoverMission(fc_addr='127.0.0.1:14550', log_file='location.log')`)
 
 
 To start the hover mission, send a POST request to the /start-mission endpoint with the following JSON data:
 
-{
+(`{
   "alt": 10,
   "hover_time": 5
-}
+}`)
 
 
 The alt field specifies the target altitude in meters and the hover_time field specifies the hover time in seconds.
