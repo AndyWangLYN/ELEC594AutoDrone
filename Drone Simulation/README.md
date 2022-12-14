@@ -6,7 +6,7 @@ Before using the code in this repository, you will need to install Python and Ar
 
 To install Python on your system, use the following command:
 
-$ sudo apt-get install python3
+(`$ sudo apt-get install python3`)
 
 
 ## Installing Ardupilot
@@ -30,7 +30,6 @@ To install Ardupilot on your system, follow these steps:
 
 
 (`$ cd ardupilot`)
-
 
 
 (`$ pip install -r requirements.txt`)
