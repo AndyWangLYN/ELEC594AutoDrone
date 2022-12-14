@@ -1,7 +1,7 @@
 # Heyu Wang ELEC 594 AutoDrone Capstone project
 
 
-# Autonomous Drone Project
+# Autonomous Drone Project, Fall 2022, Rice University
 This repository contains the scripts for an autonomous drone project developed for Rice University ELEC 594. The project includes three main folders:
 
 **Drone Hover Script**: contains the script for the drone to hover in the air.
