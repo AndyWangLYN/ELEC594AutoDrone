@@ -16,4 +16,4 @@ This repository contains the scripts for an autonomous drone project developed f
 To run the scripts, please follow the instructions in the README.md file inside each folder.
 
 Results
-According to the simulation I tested, the autonomous drone was able to successfully detect and fly towards a flower, and perform the required operations. The simulation results showed that the drone was able to navigate accurately in the simulated environment.
+According to the simulation I tested, the autonomous drone was able to successfully fly, and perform the required operations. The simulation results showed that the drone was able to navigate accurately in the simulated environment.
