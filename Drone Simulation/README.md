@@ -4,7 +4,21 @@ This folder includes codes that were used to help with the simulation of the dro
 
 ## Prerequisites
 
-Before using the code in this repository, you will need to install Python and Ardupilot on your system.
+All of the codes are conducted under:
+
+Dronekit 2.9.2
+
+
+ArduCopter 4.0.4
+
+
+MAVProxy 1.8.17
+
+
+Pymavlink 2.4.10
+
+
+Before using the code in this repository, you are suggested to install Python and Ardupilot on your system.
 
 ## Installing Python
 
