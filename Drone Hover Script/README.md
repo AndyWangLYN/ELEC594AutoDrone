@@ -1,4 +1,4 @@
-**Hover Mission**
+## Hover Mission
 
 This script contains a HoverMission class that is a subclass of the Mission class and is used to take off, hover, and land a drone. The HoverMission class initializes a DroneController instance to control the drone and a DirectLogger instance to log the drone's location data.
 
@@ -6,7 +6,7 @@ The start_mission method is an example of a callback endpoint that is called by 
 
 The panic method can be called as a panic endpoint to immediately abort the mission and land the drone.
 
-**Usage**
+## Usage
 
 To use the HoverMission class, create an instance of the class and specify the MAVProxy address of the flight controller and the name of the log file for location data. The start_server method is called automatically to start the web server that listens for callbacks to start the mission.
 
