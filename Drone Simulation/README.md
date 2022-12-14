@@ -1,4 +1,8 @@
-# Prerequisites
+# Simulation:
+
+This folder includes codes that were used to help with the simulation of the drone operations like hovering and fly to certain locations. Read the comments in the codes for more details about each of them and how to use them.
+
+## Prerequisites
 
 Before using the code in this repository, you will need to install Python and Ardupilot on your system.
 
