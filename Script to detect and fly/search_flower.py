@@ -148,8 +148,10 @@ class WaypointGotoMission(Mission):
                     box_x = (box.xmin + box.xmax) / 2
                     box_y = (box.ymin + box.ymax) / 2
 
-                    # keep moving the drone until the bounding box is in the center of the screen
-                    while box_x != center_x or box_y != center_y:
+                    # keep moving the drone until the bounding box is within the acceptable range of the center of the screen
+                    acceptable_range_x = 640
+                    acceptable_range_y = 360
+                    while abs(box_x - center_x) > acceptable_range_x or abs(box_y - center_y) > acceptable_range_y:
                         # move the drone in the appropriate direction
                         velocity = drone_pb2.Velocity(
                             x=box_x - center_x,
@@ -158,14 +160,15 @@ class WaypointGotoMission(Mission):
                             yaw=0
                         )
                         stub.SetVelocity(velocity)
-                    
+
                         # wait for a moment
                         time.sleep(1)
-                        
+
                         # get the new bounding box coordinates
                         box = stub.GetBox(drone_pb2.Empty())
                         box_x = (box.xmin + box.xmax) / 2
                         box_y = (box.ymin + box.ymax) / 2
+
 
 
                     # set the altitude to 10 meters
