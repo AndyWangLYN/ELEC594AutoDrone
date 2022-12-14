@@ -20,3 +20,10 @@ To run the scripts, please follow the instructions in the README.md file inside 
 
 Results
 According to the simulation I tested, the autonomous drone was able to successfully fly, and perform the required operations. The simulation results showed that the drone was able to navigate accurately in the simulated environment.
+
+
+
+Dronekit 2.9.2
+ArduCopter 4.0.4
+MAVProxy 1.8.17
+Pymavlink 2.4.10
